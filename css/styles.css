@@ -62,6 +62,12 @@ button {
 img {
   display: block;
 }
+
+section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .page-container {
   min-height: 100%;
   display: flex;
@@ -214,10 +220,6 @@ img {
   column-gap: 24px;
 }
 
-section {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
 .visually-hidden {
   position: absolute;
   width: 1px;
