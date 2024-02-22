@@ -100,12 +100,11 @@ section {
 }
 .header-menu {
   display: flex;
-
   gap: 40px;
 }
 .header-menu-item {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  display: block;
+  padding: 24px 0;
 }
 .header-contacts-list {
   display: flex;
