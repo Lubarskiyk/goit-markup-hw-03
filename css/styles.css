@@ -181,6 +181,7 @@ button {
   letter-spacing: 0.03em;
   font-weight: 700;
   color: #4d5ae5;
+  display: block;
   margin-bottom: 16px;
 }
 .footer-logo-span {
