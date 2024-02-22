@@ -142,6 +142,7 @@ section {
 
 .hero {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 .hero-title {
   text-align: center;
@@ -149,11 +150,17 @@ section {
   margin: 0 auto 48px;
 }
 .hero-button {
+  border: none;
   background-color: #4d5ae5;
   color: #fff;
   font-weight: 500;
   line-height: 150%;
   letter-spacing: 0.04em;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border-radius: 4px;
+  margin: 0 auto;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -170,12 +177,19 @@ section {
 .team-card {
   background-color: #fff;
   text-align: center;
-  padding-bottom: 32px;
+  border-radius: 0px 0px 4px 4px;
+}
+.team-card-text {
+  padding: 32px 0;
 }
 .team-card-name {
-  margin-top: 32px;
+  text-align: center;
   margin-bottom: 8px;
 }
+.team-card-job {
+  text-align: center;
+}
+
 .portfolio-title {
   text-align: center;
   margin-bottom: 72px;
@@ -193,7 +207,7 @@ section {
   letter-spacing: 0.03em;
   font-weight: 700;
   color: #4d5ae5;
-  display: block;
+  display: inline-block;
   margin-bottom: 16px;
 }
 .footer-logo-span {
@@ -205,12 +219,16 @@ section {
 }
 .advantages-cards-list {
   display: flex;
-  justify-content: space-between;
   gap: 24px;
+}
+.advantages-cards-item {
+  display: block;
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .team-cards-list {
   display: flex;
   justify-content: space-between;
+  gap: 24px;
 }
 .portfolio-cards-list {
   display: flex;
@@ -237,7 +255,7 @@ section {
   margin-bottom: 8px;
 }
 .portfolio-cards-text {
-  padding: 32px 0 32px 16px;
+  padding: 32px 16px;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
   border-bottom: 1px solid #e7e9fc;
