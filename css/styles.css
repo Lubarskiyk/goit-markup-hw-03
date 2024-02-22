@@ -102,7 +102,7 @@ section {
   display: flex;
   gap: 40px;
 }
-.header-menu-item {
+.header-menu-title {
   display: block;
   padding: 24px 0;
 }
